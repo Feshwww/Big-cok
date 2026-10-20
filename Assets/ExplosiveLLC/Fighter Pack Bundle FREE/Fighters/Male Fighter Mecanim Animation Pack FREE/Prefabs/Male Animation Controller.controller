@@ -2162,7 +2162,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 664d2fb3a87d96346a11f067b703e2ac, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: ec8a9a773b142de48ac9c652ae76da1f, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -2280,7 +2280,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: WalkBackward
-  m_Speed: 1
+  m_Speed: 1.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110188860}
@@ -2293,7 +2293,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: eda2313558ba79a47baf01ed6d84e8cc, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: 76f7deb6546a66c4e94db118610d6615, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -2710,7 +2710,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 758af7325e0e53b429fa6efdc09abe59, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: a5af442621a774b499b4cad0ff889609, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -2931,7 +2931,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Punch
+  m_Name: kick
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -2945,7 +2945,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 635d947060dd41649bbcfe7bc1ebb900, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: 7e46d8e4533dbd545ab278dd5bf2a088, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -3124,7 +3124,7 @@ AnimatorStateMachine:
     m_Position: {x: -300, y: 156, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110248825}
-    m_Position: {x: -300, y: 108, z: 0}
+    m_Position: {x: -300, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110281788}
     m_Position: {x: 168, y: 132, z: 0}
