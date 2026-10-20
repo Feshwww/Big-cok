@@ -487,7 +487,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1211116974}
     - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
+      propertyPath: correno.m_Name
+      value: Correno
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
+      propertyPath: correndo.m_Name
+      value: Correndo
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
       propertyPath: ataque.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
+      propertyPath: correno.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
+      propertyPath: correndo.m_SingletonActionBindings.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
@@ -495,14 +511,39 @@ PrefabInstance:
       value: fcfef837-2b58-4ca5-a9d4-877dee7852a7
       objectReference: {fileID: 0}
     - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
+      propertyPath: correno.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 8c7c8188-c453-49b9-858b-fc4a069fd845
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
       propertyPath: ataque.m_SingletonActionBindings.Array.data[0].m_Path
       value: <Keyboard>/e
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
+      propertyPath: correndo.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 01e08b01-32f1-4719-8f4e-12ef483620fd
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
+      propertyPath: correno.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/d
       objectReference: {fileID: 0}
     - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
       propertyPath: ataque.m_SingletonActionBindings.Array.data[0].m_Action
       value: Ataque
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
+      propertyPath: correndo.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/d
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
+      propertyPath: correno.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Correno
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063429627530564789, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
+      propertyPath: correndo.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Correndo
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3399908694099220637, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
