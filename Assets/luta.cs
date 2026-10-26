@@ -24,7 +24,6 @@ public class luta : MonoBehaviour
       
             Debug.Log("aaaaaaa");
             animatorluta.SetBool("Walk Forward", true);
-        
        
     }
 
