@@ -70,6 +70,16 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
     m_Priority: 0
+  correndo:
+    m_Name: Correndo
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: da27d142-e52f-4fd0-a254-fe5664d6d307
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+    m_Priority: 0
 --- !u!1001 &4597999033037084970
 PrefabInstance:
   m_ObjectHideFlags: 0
