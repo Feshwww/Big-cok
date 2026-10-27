@@ -273,13 +273,23 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Correndo
       m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
+  atras:
+    m_Name: Atras
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: dd0db9d4-f1cf-45b7-a936-085a4b40ccaa
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
     - m_Name: 
-      m_Id: 86841957-1bf6-4b97-938c-b2b1429501a4
+      m_Id: 34968872-2c5a-4f34-8d68-4ec093d4b715
       m_Path: <Keyboard>/a
       m_Interactions: 
       m_Processors: 
       m_Groups: 
-      m_Action: Correndo
+      m_Action: Atras
       m_Flags: 0
     m_Flags: 0
     m_Priority: 0

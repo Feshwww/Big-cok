@@ -8,6 +8,7 @@ public class luta : MonoBehaviour
     [SerializeField] private Animator animatorluta;
     [SerializeField] private InputAction ataque;
     [SerializeField] private InputAction correndo;
+    [SerializeField] private InputAction atras;
 
 
     void Start()
@@ -15,28 +16,36 @@ public class luta : MonoBehaviour
         ataque.Enable();
         ataque.performed += Atacar;
         correndo.Enable();
- //nome da ação |tipo event|atrib|
-        correndo.performed += Correr;
-        
+        atras.Enable();
+        //nome da ação |tipo event|atrib|
+        correndo.performed += Frenteir;
+        atras.performed += atrasir;
+        atras.canceled += atrasparar;
 
 
-
-        correndo.canceled += Parar;
+        correndo.canceled += Frenteparar;
     }
 
-    private void Correr(InputAction.CallbackContext context)
+    private void Frenteir(InputAction.CallbackContext context)
     {
-     
-            Debug.Log("aaaaaaa");
-            animatorluta.SetBool("Walk Forward", true);
-       
+
+        Debug.Log("aaaaaaa");
+        animatorluta.SetBool("Walk Forward", true);
+
     }
-    private void Parar(InputAction.CallbackContext context)
+    private void Frenteparar(InputAction.CallbackContext context)
     {
         animatorluta.SetBool("Walk Forward", false);
 
     }
-
+    private void atrasir(InputAction.CallbackContext context)
+    {
+        animatorluta.SetBool("Walk Backward", true);
+    }
+    private void atrasparar(InputAction.CallbackContext context)
+    {
+        animatorluta.SetBool("Walk Backward", false);
+    }
 
     private void OnDestroy()
     {
