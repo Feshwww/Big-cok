@@ -15,17 +15,28 @@ public class luta : MonoBehaviour
         ataque.Enable();
         ataque.performed += Atacar;
         correndo.Enable();
+ //nome da ação |tipo event|atrib|
         correndo.performed += Correr;
-        correndo.canceled -= Correr;
+        
+
+
+
+        correndo.canceled += Parar;
     }
 
     private void Correr(InputAction.CallbackContext context)
     {
-      
+     
             Debug.Log("aaaaaaa");
             animatorluta.SetBool("Walk Forward", true);
        
     }
+    private void Parar(InputAction.CallbackContext context)
+    {
+        animatorluta.SetBool("Walk Forward", false);
+
+    }
+
 
     private void OnDestroy()
     {
