@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4006850675966136918}
   - component: {fileID: 4253802764250472098}
   - component: {fileID: 9063429627530564789}
+  - component: {fileID: 2801202066898523452}
+  - component: {fileID: 5271006522764581906}
   m_Layer: 0
   m_Name: Big Vegas
   m_TagString: Untagged
@@ -46,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f7ef17c21ec457409514db055acb92a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 7973001278823556283}
 --- !u!114 &9063429627530564789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,7 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fee2347b3bb0c141b196ff3e5976086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::luta
-  animatorluta: {fileID: 0}
+  animatorluta: {fileID: 7973001278823556283}
   ataque:
     m_Name: Ataque
     m_Type: 0
@@ -67,7 +69,15 @@ MonoBehaviour:
     m_Id: 039de9df-7184-4e59-bada-e1ad79269323
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: fcfef837-2b58-4ca5-a9d4-877dee7852a7
+      m_Path: <Keyboard>/e
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Ataque
+      m_Flags: 0
     m_Flags: 0
     m_Priority: 0
   correndo:
@@ -77,9 +87,128 @@ MonoBehaviour:
     m_Id: da27d142-e52f-4fd0-a254-fe5664d6d307
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 01e08b01-32f1-4719-8f4e-12ef483620fd
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Correndo
+      m_Flags: 0
     m_Flags: 0
     m_Priority: 0
+--- !u!114 &2801202066898523452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326373565590995851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01c46bd14e811741ba6233c1db1406e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::sonsaudio
+  wooshSource: {fileID: 5271006522764581906}
+  wooshSoco1: {fileID: 8300000, guid: d73b68fbd83ce408689d2a6659ded8f8, type: 3}
+--- !u!82 &5271006522764581906
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326373565590995851}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.504
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &4597999033037084970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -142,14 +271,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7d5cc796958f01c498366d728cf88437, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3399908694099220637}
+      addedObject: {fileID: 4490690229669816955}
   m_SourcePrefab: {fileID: 100100000, guid: 7d5cc796958f01c498366d728cf88437, type: 3}
 --- !u!1 &3678937403085481083 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7d5cc796958f01c498366d728cf88437, type: 3}
   m_PrefabInstance: {fileID: 4597999033037084970}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3399908694099220637
+--- !u!114 &4490690229669816955
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,10 +287,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3678937403085481083}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f7ef17c21ec457409514db055acb92a, type: 3}
+  m_Script: {fileID: 11500000, guid: b01c46bd14e811741ba6233c1db1406e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FighterAnimationDemoFREE
-  animator: {fileID: 7973001278823556283}
+  m_EditorClassIdentifier: Assembly-CSharp::sonsaudio
+  wooshSource: {fileID: 5271006522764581906}
+  wooshSoco1: {fileID: 8300000, guid: d705dc6073dae497389944fd5d0007fb, type: 3}
 --- !u!4 &4054900748058541761 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d5cc796958f01c498366d728cf88437, type: 3}

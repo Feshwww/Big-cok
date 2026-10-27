@@ -56,14 +56,14 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000u
       curves: []
       events:
-      - time: 0.24972123
-        functionName: Playwoosh
+      - time: 0
+        functionName: PlayWoosh
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0
+      - time: 0.038037397
         functionName: PlayWoosh
         data: 
         objectReferenceParameter: {instanceID: 0}

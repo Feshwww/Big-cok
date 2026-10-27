@@ -1,4 +1,4 @@
-using System;
+    using System;
 using System.ComponentModel.Design.Serialization;
 using UnityEngine;
 
@@ -23,6 +23,11 @@ public class audio : MonoBehaviour
         Debug.Log("Play Step");
         stepSource.clip = step1;
         stepSource.Play();
+    }
+
+    public void PlayVoice()
+    {
+        
     }
    
 }
