@@ -408,6 +408,19 @@ MonoBehaviour:
   stepSource: {fileID: 1101467999}
   step1: {fileID: 8300000, guid: 5e94f3d51023c5446b59f52c71e0cade, type: 3}
   Voice: {fileID: 8300000, guid: b0eddbe92b9c249b6a3e6913ea2dc163, type: 3}
+  grunts:
+  - {fileID: 8300000, guid: 962fed30cb2044e488376207e9cd60f3, type: 3}
+  - {fileID: 8300000, guid: 17eaccd8f692843cf9652d4cec294fe2, type: 3}
+  - {fileID: 8300000, guid: 2a1cfd41c98d1460d816233f23e6152f, type: 3}
+  voiceSource: {fileID: 1101467999}
+  Steps:
+  - {fileID: 8300000, guid: f0f794c67e9233d468a38d165590d253, type: 3}
+  - {fileID: 8300000, guid: 314d37dfb74502a4094b835d0e0d6c23, type: 3}
+  StepSource: {fileID: 1101467999}
+  Step2:
+  - {fileID: 8300000, guid: 3e069d60195c9de4a9f7765557397f30, type: 3}
+  - {fileID: 8300000, guid: 50dae6ac2eee7894fb8b48c192a50802, type: 3}
+  Step2Source: {fileID: 1101467999}
 --- !u!82 &1101467999
 AudioSource:
   m_ObjectHideFlags: 0
@@ -417,12 +430,12 @@ AudioSource:
   m_GameObject: {fileID: 1101467995}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -6308804668430171015, guid: 3898b492c522a734e9dfc0ef112d0ecc, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 1.88
   Loop: 0
   Mute: 0
   Spatialize: 0

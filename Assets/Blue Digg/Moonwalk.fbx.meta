@@ -57,7 +57,14 @@ ModelImporter:
       curves: []
       events:
       - time: 0.54292077
-        functionName: PlayStep
+        functionName: PlayStep2
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.12374581
+        functionName: PlayStep2
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
