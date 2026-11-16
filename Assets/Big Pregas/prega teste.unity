@@ -1098,6 +1098,7 @@ MonoBehaviour:
     m_Flags: 0
     m_Priority: 0
   hpBar: {fileID: 788271034}
+  hpBarFeedBack: {fileID: 0}
 --- !u!1001 &2752318901198141215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1178,7 +1179,9 @@ PrefabInstance:
       propertyPath: atras.m_SingletonActionBindings.Array.data[0].m_Action
       value: Atras
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2801202066898523452, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
+    - {fileID: 4490690229669816955, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4006850675966136918, guid: 6965c44e6bcf2184b89b2c82cf782da8, type: 3}
