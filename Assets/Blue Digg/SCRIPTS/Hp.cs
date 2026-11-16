@@ -9,6 +9,7 @@ public class Hp : MonoBehaviour
     [SerializeField] private float maxHp = 100f;
     [SerializeField] private InputAction debugDano;
     [SerializeField] private Image hpBar;
+    [SerializeField] private Image hpBarFeedBack;
     private float hp;
     
     private void Start()
